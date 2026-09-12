@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabela | Portal de cursos online</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===================== HEADER + NAV ===================== -->
+    <header id="inicio">
+        <div class="contenedor-header">
+            <h1>Sabela</h1>
+            <nav>
+                <!-- Flexbox: barra de navegación horizontal (display:flex en la ul) -->
+                <ul class="menu-principal">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#galeria">Destacados</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+        <div class="texto-hero">
+            <h2>Aprendé a tu ritmo, desde cualquier lugar</h2>
+            <p>
+                <strong>Sabela</strong> es un portal de cursos online pensado para quienes quieren dar
+                sus primeros pasos en tecnología o perfeccionar lo que ya saben. Talleres cortos,
+                bootcamps intensivos y cursos a demanda, dictados por profesionales en actividad.
+            </p>
+            <a href="#cursos" class="boton-cta">Ver cursos disponibles</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
+            alt="Persona estudiando frente a una laptop con anotaciones" class="img-hero">
+    </section>
+
+    <!-- ===================== NOSOTROS ===================== -->
+    <section id="nosotros" class="seccion">
+        <h2>Sobre Sabela</h2>
+        <article>
+            <p>
+                Nacimos en 2023 con una idea simple: <em>la educación de calidad no debería ser un
+                lujo</em>. Desde entonces acompañamos a más de dos mil estudiantes en su camino
+                dentro del mundo del desarrollo web, el diseño y el análisis de datos.
+            </p>
+            <p>
+                Nuestro equipo está formado por docentes, desarrolladores y diseñadores que trabajan
+                todos los días en la industria, y que vuelcan esa experiencia real en cada curso.
+                <strong>No enseñamos teoría suelta: enseñamos con proyectos.</strong>
+            </p>
+        </article>
+    </section>
+
+    <!-- ===================== CURSOS (CARDS) ===================== -->
+    <section id="cursos" class="seccion fondo-claro">
+        <h2>Nuestros cursos</h2>
+        <p class="bajada">Elegí el nivel que más se ajuste a tu experiencia actual.</p>
+
+        <!-- Flexbox: grilla de cards de cursos -->
+        <div class="grilla-cursos">
+
+            <article class="tarjeta-curso">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80"
+                    alt="Pantalla con código HTML y CSS">
+                <div class="info-tarjeta">
+                    <span class="etiqueta-nivel nivel-principiante">Principiante</span>
+                    <h3>HTML y CSS desde cero</h3>
+                    <p>Bases sólidas de maquetado web: etiquetas semánticas, selectores y Flexbox.</p>
+                    <p class="precio">$15.000 <span class="duracion">· 4 semanas</span></p>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso">
+                <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&q=80"
+                    alt="Persona programando en JavaScript en su notebook">
+                <div class="info-tarjeta">
+                    <span class="etiqueta-nivel nivel-intermedio">Intermedio</span>
+                    <h3>JavaScript aplicado</h3>
+                    <p>Lógica de programación, DOM y almacenamiento local para sitios interactivos.</p>
+                    <p class="precio">$22.000 <span class="duracion">· 6 semanas</span></p>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80"
+                    alt="Equipo de trabajo colaborando en un proyecto de diseño">
+                <div class="info-tarjeta">
+                    <span class="etiqueta-nivel nivel-intermedio">Intermedio</span>
+                    <h3>UX/UI para desarrolladores</h3>
+                    <p>Principios de diseño de interfaces, prototipado y sistemas de color tipográficos.</p>
+                    <p class="precio">$20.000 <span class="duracion">· 5 semanas</span></p>
+                </div>
+            </article>
+
+            <article class="tarjeta-curso">
+                <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&q=80"
+                    alt="Gráficos y tableros de análisis de datos en una pantalla">
+                <div class="info-tarjeta">
+                    <span class="etiqueta-nivel nivel-avanzado">Avanzado</span>
+                    <h3>Bootcamp Full Stack</h3>
+                    <p>Programa intensivo que integra frontend, backend y una base de datos real.</p>
+                    <p class="precio">$45.000 <span class="duracion">· 12 semanas</span></p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===================== GALERÍA / DESTACADOS ===================== -->
+    <section id="galeria" class="seccion">
+        <h2>Nuestra comunidad</h2>
+        <p class="bajada">Algunos momentos de clases, encuentros y presentaciones de proyectos.</p>
+
+        <div class="grilla-galeria">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&q=80"
+                alt="Grupo de estudiantes trabajando en clase con notebooks">
+            <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=400&q=80"
+                alt="Estudiante presentando un proyecto frente a sus compañeros">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&q=80"
+                alt="Docente explicando un tema frente a una pizarra">
+            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=80"
+                alt="Grupo de personas celebrando la finalización de un curso">
+        </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="seccion fondo-claro">
+        <h2>Contacto</h2>
+        <div class="contenedor-contacto">
+            <div class="datos-contacto">
+                <p><strong>Email:</strong> contacto@sabela.com</p>
+                <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
+                <p><strong>Dirección:</strong> Av. Siempre Viva 742, CABA</p>
+                <a href="mailto:contacto@sabela.com" class="boton-cta">Escribinos un email</a>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6!2d-58.3816!3d-34.6037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM2JzEzLjMiUyA1OMKwMjInNTMuOCJX!5e0!3m2!1ses!2sar!4v1700000000000"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Ubicación de Sabela en el mapa">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <p>Seguinos en nuestras redes:</p>
+        <ul class="redes-sociales">
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+        <a href="#inicio" class="volver-arriba">Volver arriba ↑</a>
+        <p class="copyright">&copy; 2026 Sabela. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
