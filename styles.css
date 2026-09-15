@@ -1,4 +1,4 @@
-/* ===================== RESET BÁSICO ===================== */
+/*  RESET   */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,14 +20,14 @@ a{
     color: inherit;
 }
 
-/* ===================== HEADER Y NAV ===================== */
+/*  HEADER Y NAV  */
 header{
     background-color: #222425;
     padding: 20px 5%;
 }
 
 .contenedor-header{
-    /* Flexbox: alinea el logo y el menú en una misma fila */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ header h1{
     font-size: 32px;
 }
 
-/* Flexbox: barra de navegación horizontal */
+
 .menu-principal{
     display: flex;
     justify-content: flex-end;
@@ -56,9 +56,9 @@ header h1{
     color: #ffcb47;
 }
 
-/* ===================== HERO ===================== */
+/*  HERO  */
 .hero{
-    /* Flexbox: texto e imagen lado a lado */
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,7 +103,7 @@ header h1{
     background-color: #e64542;
 }
 
-/* ===================== SECCIONES GENERALES ===================== */
+/*  SECCIONES GENERALES  */
 .seccion{
     padding: 60px 5%;
 }
@@ -114,6 +114,7 @@ header h1{
     color: #222425;
     margin-bottom: 10px;
 }
+
 
 .bajada{
     text-align: center;
@@ -129,9 +130,9 @@ article p strong{
     color: #ff5e5b;
 }
 
-/* ===================== GRILLA DE CURSOS (CARDS) ===================== */
+/*  GRILLA DE CURSOS  */
 .grilla-cursos{
-    /* Flexbox: grilla de cards que se acomoda según el ancho disponible */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -197,9 +198,8 @@ article p strong{
     font-size: 0.85rem;
 }
 
-/* ===================== GALERÍA ===================== */
+/*  GALERÍA  */
 .grilla-galeria{
-    /* Flexbox: fotos en fila que se envuelven en pantallas chicas */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -214,7 +214,7 @@ article p strong{
     border-radius: 8px;
 }
 
-/* ===================== CONTACTO ===================== */
+/*  CONTACTO  */
 .contenedor-contacto{
     display: flex;
     flex-wrap: wrap;
@@ -231,7 +231,7 @@ article p strong{
     margin-top: 10px;
 }
 
-/* ===================== FOOTER ===================== */
+/*  FOOTER  */
 footer{
     background-color: #222425;
     color: #ffffff;
@@ -265,7 +265,7 @@ footer{
     margin-top: 10px;
 }
 
-/* ===================== RESPONSIVE BÁSICO ===================== */
+/*  RESPONSIVE BÁSICO  */
 @media (max-width: 768px){
     .hero{
         flex-direction: column;
