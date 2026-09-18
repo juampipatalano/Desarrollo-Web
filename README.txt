@@ -7,6 +7,7 @@ Proyecto: Sabela - Portal de cursos online
 Integrantes:
 - Apellido, Nombre: Bisanzio, Geronimo - Patalano, Juan Pablo - Segesso, Franco
 - Comisión: Viernes Noche
+- Mail: gbisanzio@uade.edu.ar - jpatalano@uade.edu.ar - fsegesso@uade.edu.ar 
 
 Navegadores probados:
 - Google Chrome 
